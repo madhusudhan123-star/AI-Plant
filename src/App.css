@@ -1,0 +1,51 @@
+.reactflow-wrapper {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.controls {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.controls button {
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: move;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-node,
+.llm-node,
+.output-node {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+.input-node label,
+.llm-node label,
+.output-node label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-node input,
+.llm-node select {
+  width: 100%;
+  padding: 5px;
+}
+
+.output-node p {
+  margin: 0;
+  padding: 5px;
+  background-color: #f0f0f0;
+  border-radius: 3px;
+}
